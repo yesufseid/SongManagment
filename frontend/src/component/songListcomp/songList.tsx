@@ -4,7 +4,7 @@ import { RootState, AppDispatch } from "../../Redux/store"
 import UpdateSongModal from "../songUpdatecomp/songUpdate"
 import AddSongModal from "../songAddComp/addSong";
 import GenreFilter from "../GenreFilter";
-import {Container,Title,SongItem,DeleteButton,Listul,SongDetails,SongTitle,AddButton,EditButton,Section} from "./styledComponent"
+import {Container,Title,SongItem,DeleteButton,Listul,SongDetails,SongTitle,AddButton,Section} from "./styledComponent"
 
 export default function SongList() {
   const dispatch = useDispatch<AppDispatch>();

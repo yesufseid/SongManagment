@@ -20,9 +20,7 @@ const port=process.env.PORT || 3000;
 
 const start =async()=>{
     try {
-        // Connect to MongoDB
-        console.log(process.env.MONGO_URI);
-        
+        // Connect to MongoDB  
       await  mongoose.connect(process.env.MONGO_URI, {
             useNewUrlParser: true,
             useUnifiedTopology: true,

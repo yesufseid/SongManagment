@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import {Overlay,Input,Button,CancelButton,AddButton,Modal} from "./styledComponent"
+import {Overlay,Input,CancelButton,AddButton,Modal} from "./styledComponent"
 
 
 
