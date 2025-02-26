@@ -6,7 +6,7 @@ services:
       context: ./backend
     container_name: backend_c
     ports:
-      - '3000:3000'
+      - '5000:5000'
     volumes:
       - ./backend/app:/app
       - /app/node_modules
@@ -16,6 +16,6 @@ services:
       context: ./frontend
     container_name: frontend_c
     ports:
-      - '4000:4000'
+      - '3000:3000'
     stdin_open: true
     tty: true
