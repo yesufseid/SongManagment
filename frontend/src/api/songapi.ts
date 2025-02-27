@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL=process.env.API_URL
+const API_URL=process.env.NEXT_PUBLIC_API_URL
 console.log(API_URL);
 export const getSongs = ()=>axios.get(API_URL);
 export const addSong = (song:{}) => axios.post(API_URL, song);
